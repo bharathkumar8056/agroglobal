@@ -138,6 +138,9 @@ export default function Home() {
             <p className="text-foreground/70 max-w-2xl mx-auto">
               We offer the finest quality vegetables, spices, onions, and rice for the global market
             </p>
+            <div className="mt-6 inline-block bg-primary/10 border-2 border-primary rounded-lg px-6 py-3">
+              <p className="text-primary font-bold">Minimum Order: 1 Ton for All Products</p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -205,6 +208,109 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Business Terms & Order Details Section */}
+      <section className="py-16 md:py-24 bg-card">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Business Terms & Requirements</h2>
+            <p className="text-foreground/70 max-w-2xl mx-auto">
+              Clear and transparent business practices designed for seamless international trade
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="bg-background p-8 rounded-lg border-l-4 border-primary">
+              <h3 className="text-xl font-bold text-foreground mb-4">Minimum Order</h3>
+              <p className="text-4xl font-bold text-primary mb-2">1 Ton</p>
+              <p className="text-foreground/70">Minimum order quantity applies to all products for bulk export</p>
+            </div>
+
+            <div className="bg-background p-8 rounded-lg border-l-4 border-accent">
+              <h3 className="text-xl font-bold text-foreground mb-4">Shipment Ports</h3>
+              <div className="space-y-2">
+                <p className="text-lg font-semibold text-accent">Tuticorin Harbour</p>
+                <p className="text-lg font-semibold text-accent">Chennai Harbour</p>
+              </div>
+              <p className="text-foreground/70 text-sm mt-3">Professional handling and documentation at both ports</p>
+            </div>
+
+            <div className="bg-background p-8 rounded-lg border-l-4 border-primary">
+              <h3 className="text-xl font-bold text-foreground mb-4">Payment Options</h3>
+              <ul className="space-y-2 text-foreground/80">
+                <li className="flex items-start space-x-2">
+                  <span className="text-primary font-bold">•</span>
+                  <span>50% Advance on Order</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-primary font-bold">•</span>
+                  <span>50% on Shipment Delivery</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-primary font-bold">•</span>
+                  <span>Letter of Credit (LC)</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-primary font-bold">•</span>
+                  <span>Full Payment on Order</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <p className="text-center font-bold text-primary mb-4">Important Note :-  Payment: 50 percent advance on Order Acceptance<br />Remaining once shipment delivered</p>
+
+          <div className="bg-primary/10 border border-primary/30 rounded-lg p-8">
+            <h3 className="text-xl font-bold text-foreground mb-6 text-center">Why These Terms?</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="flex space-x-4">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-primary text-primary-foreground">
+                    <Shield size={20} />
+                  </div>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Buyer Protection</p>
+                  <p className="text-sm text-foreground/70">Flexible payment options protect both buyer and seller</p>
+                </div>
+              </div>
+              <div className="flex space-x-4">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-primary text-primary-foreground">
+                    <Truck size={20} />
+                  </div>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Quality Assurance</p>
+                  <p className="text-sm text-foreground/70">Minimum order ensures quality control and proper packaging</p>
+                </div>
+              </div>
+              <div className="flex space-x-4">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-primary text-primary-foreground">
+                    <Globe size={20} />
+                  </div>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Global Standards</p>
+                  <p className="text-sm text-foreground/70">Multiple port options for convenient international shipping</p>
+                </div>
+              </div>
+              <div className="flex space-x-4">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-primary text-primary-foreground">
+                    <CheckCircle size={20} />
+                  </div>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Transparent Pricing</p>
+                  <p className="text-sm text-foreground/70">Clear payment terms with no hidden charges or surprises</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
