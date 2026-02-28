@@ -74,7 +74,7 @@ export default function Home() {
             {/* Right Hero Image */}
             <div className="relative h-96 md:h-full min-h-96">
               <Image
-                src="/images/hero-banner.jpg"
+                src="/images/agro-banner.png"
                 alt="Agricultural fields and produce"
                 fill
                 className="object-cover rounded-lg shadow-xl"
@@ -147,6 +147,7 @@ export default function Home() {
             {[
               {
                 name: 'Premium Onions',
+                slug: 'onions',
                 category: 'Vegetables',
                 image: '/images/onion-product.jpg',
                 description: 'High-quality golden onions perfect for bulk export',
@@ -154,6 +155,7 @@ export default function Home() {
               },
               {
                 name: 'Fresh Vegetables',
+                slug: 'vegetables',
                 category: 'Vegetables',
                 image: '/images/vegetables-product.jpg',
                 description: 'Premium fresh vegetables including tomatoes and peppers',
@@ -161,6 +163,7 @@ export default function Home() {
               },
               {
                 name: 'Premium Rice',
+                slug: 'rice',
                 category: 'Spices & Grains',
                 image: '/images/rice-product.jpg',
                 description: 'Premium basmati and other rice varieties',
@@ -168,6 +171,7 @@ export default function Home() {
               },
               {
                 name: 'Premium Spices',
+                slug: 'spices',
                 category: 'Spices & Grains',
                 image: '/images/spices-product.jpg',
                 description: 'Carefully curated selection of premium spices',
@@ -199,7 +203,7 @@ export default function Home() {
                     ))}
                   </div>
                   <Link
-                    href="/products"
+                    href={`/products/${product.slug}`}
                     className="inline-flex items-center space-x-2 text-primary font-semibold hover:text-accent transition-colors text-sm"
                   >
                     <span>Learn More</span>

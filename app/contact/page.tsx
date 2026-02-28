@@ -3,7 +3,7 @@
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { WhatsAppButton } from '@/components/whatsapp-button'
-import { Mail, Phone, MapPin, MessageCircle, Clock } from 'lucide-react'
+import { Mail, Phone, MapPin, MessageCircle, Globe } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Contact() {
@@ -98,7 +98,7 @@ export default function Contact() {
             <div className="bg-background p-8 rounded-lg">
               <h3 className="text-2xl font-semibold text-foreground mb-6">Send Us a Message</h3>
               <p className="text-foreground/70 mb-6">
-                For quick inquiries, please reach out via WhatsApp. We respond within 2 hours during business hours.
+                For quick inquiries, please reach out via WhatsApp. Our team is dedicated to responding to all export and trade inquiries promptly.
               </p>
               <a
                 href="https://wa.me/919043335758?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20products%20and%20services."
@@ -110,7 +110,7 @@ export default function Contact() {
                 Chat on WhatsApp
               </a>
               <p className="text-sm text-foreground/70">
-                Response time: Within 2 hours during business hours (9 AM - 6 PM IST)
+                We serve buyers across multiple time zones and aim to respond to all trade inquiries as quickly as possible.
               </p>
             </div>
 
@@ -144,31 +144,31 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Business Hours */}
+      {/* Global Export Commitment */}
       <section className="py-16 md:py-24 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-primary text-primary-foreground rounded-lg p-8 md:p-12">
             <div className="flex items-start space-x-4 mb-6">
-              <Clock size={32} />
+              <Globe size={32} />
               <div>
-                <h3 className="text-2xl font-bold mb-2">Business Hours</h3>
-                <p className="opacity-90">We're available to assist you during the following times</p>
+                <h3 className="text-2xl font-bold mb-2">Our Export Commitment</h3>
+                <p className="opacity-90">Trusted by buyers across 20+ countries worldwide</p>
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
               <div>
-                <h4 className="font-semibold mb-3 text-lg">Weekdays (Monday - Friday)</h4>
-                <p className="text-lg">9:00 AM - 6:00 PM IST</p>
+                <h4 className="font-semibold mb-3 text-lg">Shipping Ports</h4>
+                <p className="opacity-90">We export through Tuticorin and Chennai harbours, well-connected to global shipping routes.</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-3 text-lg">Weekends & Holidays</h4>
-                <p className="text-lg">Available for WhatsApp inquiries</p>
+                <h4 className="font-semibold mb-3 text-lg">Documentation & Compliance</h4>
+                <p className="opacity-90">Full export documentation, certifications, and customs clearance support provided for every shipment.</p>
               </div>
             </div>
 
             <p className="mt-8 opacity-90 text-sm">
-              For urgent matters outside business hours, please send a WhatsApp message and we'll respond as soon as possible.
+              We handle end-to-end export logistics — from sourcing and quality checks to packaging, shipment, and delivery to your destination port.
             </p>
           </div>
         </div>
