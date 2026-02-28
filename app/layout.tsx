@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Agroglobal - Premium Agricultural Exports | Onion & Rice',
   description: 'Leading agricultural export company specializing in premium quality onions and rice. International B2B exports from India with competitive pricing and reliable shipment from Tuticorin and Chennai harbours.',
-  generator: 'v0.app',
+  generator: 'BKB Incorporation',
   icons: {
     icon: [
       {
