@@ -22,7 +22,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 font-bold text-xl">
             <Image
-              src="/images/Agro-logo.jpeg"
+              src="/images/logo-final.png"
               alt="Agroglobal Logo"
               width={40}
               height={40}

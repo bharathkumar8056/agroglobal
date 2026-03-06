@@ -74,7 +74,7 @@ export default function Home() {
             {/* Right Hero Image */}
             <div className="relative h-96 md:h-full min-h-96">
               <Image
-                src="/images/agro-banner.png"
+                src="/images/agro-hero.png"
                 alt="Agricultural fields and produce"
                 fill
                 className="object-cover rounded-lg shadow-xl"

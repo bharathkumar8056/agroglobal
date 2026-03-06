@@ -14,7 +14,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Image
-                src="/images/Agro-logo.jpeg"
+                src="/images/logo-final.png"
                 alt="Agroglobal Logo"
                 width={40}
                 height={40}
