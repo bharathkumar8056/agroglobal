@@ -22,8 +22,8 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 9043335758'],
-      link: 'tel:+919043335758'
+      details: ['+91 9043335758', '+91 7092228662'],
+      links: ['tel:+919043335758', 'tel:+917092228662']
     },
     {
       icon: MessageCircle,

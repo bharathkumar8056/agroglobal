@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { WhatsAppButton } from '@/components/whatsapp-button'
@@ -249,6 +250,12 @@ export default function About() {
               <a href="https://wa.me/919043335758" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-primary transition-colors">
                 WhatsApp Business
               </a>
+              <a href="tel:+917092228662" className="text-primary hover:text-accent transition-colors block mt-5 mb-2">
+                +91 70922 28662
+              </a>
+              <h2 className="text-accent">
+                Additional Phone Number
+              </h2>
             </div>
           </div>
         </div>
